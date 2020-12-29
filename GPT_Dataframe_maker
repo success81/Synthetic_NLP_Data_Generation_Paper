@@ -1,0 +1,25 @@
+#COPY THE GPT FILE WITH DELIMETERS OF " ^ " 
+#RUN THE FILE THROUGH THIS THE FOLLOWING FUNCTION
+def file_string():
+    with open("/content/part_2_negative_pizza.txt",'r') as file:
+        lines = file.read()
+
+    return lines.replace('-\n','').replace('\n', ' ') 
+
+new_file = (file_string())
+
+#Split the file
+big_break = new_file.split('^')
+
+#Create the lists to combine into a dataframe
+stars = []
+rating = []
+
+#Create the columns
+for x in big_break:
+  stars.append(2)
+  rating.append("Negative")
+
+#Make the dataframe
+my_dict = {'stars': stars, 'rating' : rating, 'text': big_break}
+neg_df = pd.DataFrame(my_dict)
