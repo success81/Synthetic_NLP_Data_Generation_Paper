@@ -1,0 +1,25 @@
+﻿CRISP-DM NLP Synthetic Data Project
+
+
+1. Business Understanding
+Classification Models use input data to predict the likelihood that the subsequent input data will fall into predetermined categories. To perform effective classifications, these models require large datasets for training. It is becoming common practice to utilize synthetic data to boost the performance of Machine Learning Models. It is reported that Shell is using synthetic data to build models to detect problems that rarely occur; for example Shell created synthetic data to help models to identify deteriorating oil lines. It is common practice for Machine Learning Practitioners to generate synthetic data by rotating, flipping, and cropping images to increase the volume of image data to train Convolutional Neural Networks(CNN). The purpose of this paper is to explore creating and utilizing synthetic NLP data to improve the performance of Natural Language Processing (NLP) Machine Learning Classification Models. 
+
+
+2. Data Understanding.
+The information to test this concept will be pulled from the Yelp Open Dataset. The data that will be pulled will be pizza and car repair reviews.
+
+
+3. Data Preparation.
+The reviews will then be organized into positive and negative. Negative will be considered 1 or 2 star and Positive will be considered 4 or 5.
+
+
+4. Modeling.
+The baseline model will be the Multinomial Naive Bayes. This model will be fitted with Genuine data only and then with a mix of Genuine and Synthetic Data. I will also build a LSTM model to explore this technique with a neural network.
+
+
+5. Evaluation.
+The models will be evaluated on Precision, Accuracy, F1, Recall, and Confusion Matrix.
+
+
+6. Deployment.
+The models will not be deployed into production. The development environment will be in Google Colabs
