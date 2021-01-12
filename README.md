@@ -15,10 +15,14 @@ https://raw.githubusercontent.com/success81/Synthetic_NLP_Data_Generation_Paper/
 ## PROJECT WORK
 
 # PHASE 1: DATA GATHERING/PREP SYNTHETIC DATA GENERATION
-I First had to pull data from the Yelp Open Dataset I then went into 
+I First had to pull data from the Yelp Open Dataset I then downloaded the data(<b>Source</b>: 1,2,4). I then used GPT-2 to generate the synthetic data. (3). 
+
+# PHASE 2: BUILDING THE MODELS
+I then build the 
 
 Sources
 1. Pizza Reviews Genuine_Only Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_Pizza_Final.ipynb
 2. Pizza Reviews Genuine and Synthetic Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_AND_GPT_Pizza_Final.ipynb
 3. GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
+4. Car Repair Reviews https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/Car_SyntheticGenuine_Final_Capstone.ipynb
 
