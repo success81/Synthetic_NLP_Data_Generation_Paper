@@ -30,8 +30,8 @@ The performance of the models overall improved with the addition of synthetic da
 ## Pizza Reviews Performance Results                          
             
             Genuine Data Only                 Synthetic/Genuine Data
-Precision     
-Accuracy
+Precision      eee                                       ddd
+Accuracy       33                                        33
 F1
 Recall
 
