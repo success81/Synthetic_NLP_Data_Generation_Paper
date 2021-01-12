@@ -25,13 +25,17 @@ I then built a baseline Multinomial Model for the Pizza Reviews and Car Repair R
 to the genuine data and to form new Models. <b>(Reference: 1,2,4)</b> I then built a LSTM model with genuine data only and a mix of genuine and synthetic data for teh Car repair and Pizza Reviews. <b>(Reference: 5,6,7,8)</b>
 
 ## PHASE 3: MODEL PERFORMANCE TESTING
-The performance of the models overall improved with the addition of synthetic data to the genuine data. The results can be seen here. <b>(Reference: 11)</b>
+The performance of the models overall improved with the addition of synthetic data to the genuine data. The results can be seen here. <b>(Reference: 10)</b>
+
+Performance Testing Code:
+Pizza Review Baseline / Pizza Review Improved             <b>(Reference:1,1A,2,2A)</b>
+Car Repair Baseline / Car Repair Review Improved          <b>(Reference:3,3A,4,4A)</b>
 
 # Conclusion
-Through the testing of multiple models it is proven that adding synthetic data improves the performance of Classification Models
+Through the testing of multiple models it is proven that adding synthetic data improves the performance of Classification Models. 
 
 
-# Sources
+# References
 
 1: Pizza Reviews Genuine Only Notebook:
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_GENUINE_Pizza_FinalZ.ipynb
@@ -84,6 +88,6 @@ https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_r
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
 
 10:Performance Results:
-
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/BASELINE%20MODEL%20PERFORMANCE%20REVIEWS.pdf
 
 
