@@ -9,7 +9,7 @@ This project is organized into multiple Google Colab Notebooks. The code is comm
 
 ## CRISP-DM 
 
-
+The CRISP-DM planning document for this project can be found here
 
 Purpose:
 The purpose of this project is to explore the possibility of generating synthetic data to improve classification models.
