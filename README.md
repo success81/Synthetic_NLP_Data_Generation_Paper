@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/success81/Synthetic_NLP_Data_Generation_Paper/
 # PROJECT WORK
 
 ## PHASE 1: DATA GATHERING/PREP SYNTHETIC DATA GENERATION
-I First had to pull data from the Yelp Open Dataset(https://www.yelp.com/dataset) I then downloaded the data<b>(Reference: 1,2,4)</b>. I then used GPT-2 to generate the synthetic data<b>(Reference: 9)</b>. 
+I First had to pull data from the Yelp Open Dataset(https://www.yelp.com/dataset) I then downloaded the data<b>(Reference: 1,3)</b>. I then used GPT-2 to generate the synthetic data<b>(Reference: 9)</b>. 
 
 ## PHASE 2: BUILDING THE MODELS
 I then built a baseline Multinomial Model for the Pizza Reviews and Car Repair Reviews. The Baseline models had no synthetic data. I then added the synthetic data 
