@@ -57,23 +57,33 @@ https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_r
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/car_genuinesynthetic_final_capstonez.py
 
 5: LSTM Pizza Genuine: 
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Final_LSTM_CAPSTONE_Pizza_GenuineZ.ipynb
 
-5A:
+5A: LSTM Pizza Genuine PY file:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/final_lstm_capstone_pizza_genuinez.py
 
-6: LSTM Pizza Genuine and Synthetic:
+6: LSTM Pizza Genuine and Synthetic Notebook:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Final_Pizza_LSTM_CAPSTONE_Guide_CombinedZ.ipynb
 
-6A:
+6A: LSTM Pizza Genuine and Synthetic PY:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/final_pizza_lstm_capstone_guide_combinedz.py
 
 7: LSTM Car Repair Genuine:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/Final_Car_LSTM_CAPSTONE_Guide_GenuineZ.ipynb
 
-7A:
+7A: LSTM Car Repair Genuine PY:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/final_car_lstm_capstone_guide_genuinez.py
 
 8: LSTM Car Repair Genuine and Synthetic:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/Final_Car_LSTM_CAPSTONE_Guide_CombinedZ.ipynb
 
-8A:
+8A: LSTM Car Repair Genuine and Syntbetic PY:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/final_car_lstm_capstone_guide_combinedz.py
 
-9:GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
+9:GPT Sample Notebook:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
 
-10:Performance Results: d
+10:Performance Results:
+
 
 
