@@ -33,8 +33,10 @@ Pizza Review Baseline / Pizza Review Improved             <b>(Reference:1,1A,2,2
 
 Car Repair Baseline / Car Repair Review Improved          <b>(Reference:3,3A,4,4A)</b>
 
+LSTM Models                                               <b>(Reference:7,7A,8,8A)</b>
+
 # Conclusion
-Through the testing of multiple models it is proven that adding synthetic data improves the performance of Classification Models. 
+Through the testing of multiple models, it is proven that adding synthetic data improves the performance of Classification Models. 
 
 
 # References
