@@ -27,13 +27,17 @@ to the genuine data and to form new Models. <b>(Source: 1,2,4)</b> I then built 
 ## PHASE 3: MODEL PERFORMANCE TESTING
 The performance of the models overall improved with the addition of synthetic data to the genuine data
 
-                        Genuine Pizza Review                      Synthetic/Genuine PIzza Reviews
-Precision
+## Pizza Reviews Performance Results                          
+            
+            Genuine Data Only                 Synthetic/Genuine Data
+Precision     
 Accuracy
 F1
 Recall
 
-                        Genuine Car Repair Review                 Genuine Car Repair Reviews
+## Car Repair Reviews Performance Results
+
+             Genuine Data Only                 Synthetic/Genuine Data
 Precision
 Accuracy
 F1
