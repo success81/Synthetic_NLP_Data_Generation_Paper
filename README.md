@@ -9,12 +9,16 @@ This project is organized into multiple Google Colab Notebooks. The code is comm
 
 ## CRISP-DM 
 
-The CRISP-DM planning document for this project can be found here
+The CRISP-DM planning document for this project can be found here:
+https://raw.githubusercontent.com/success81/Synthetic_NLP_Data_Generation_Paper/main/Crisp-DM.txt
 
-Purpose:
-The purpose of this project is to explore the possibility of generating synthetic data to improve classification models.
+## PROJECT WORK
 
-The details of this project can be followed step-by-step in these two Jupyter Notebooks:
-Genuine_Only Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_Pizza_Final.ipynb
-Genuine and Synthetic Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_AND_GPT_Pizza_Final.ipynb
+# PHASE 1: DATA GATHERING/PREP SYNTHETIC DATA GENERATION
+I First had to pull data from the Yelp Open Dataset I then went into 
+
+Sources
+1. Pizza Reviews Genuine_Only Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_Pizza_Final.ipynb
+2. Pizza Reviews Genuine and Synthetic Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_AND_GPT_Pizza_Final.ipynb
+3. GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
 
