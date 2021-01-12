@@ -19,10 +19,14 @@ I First had to pull data from the Yelp Open Dataset I then downloaded the data<b
 
 # PHASE 2: BUILDING THE MODELS
 I then built a baseline Multinomial Model for the Pizza Reviews and Car Repair Reviews. The Baseline models had no synthetic data. I then added the synthetic data 
-to the genuine data and to form new Models. <b>(Source: 1,2,4)</b> I then built a LSTM model with genuine data only and a mix of genuine and synthetic data for teh Car repair and Pizza Reviews. 
+to the genuine data and to form new Models. <b>(Source: 1,2,4)</b> I then built a LSTM model with genuine data only and a mix of genuine and synthetic data for teh Car repair and Pizza Reviews. <b>(Source: 5,6,7,8)</b>
 <b>Sources</b>
 1. Pizza Reviews Genuine_Only Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_Pizza_Final.ipynb
-2. Pizza Reviews Genuine and Synthetic Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_AND_GPT_Pizza_Final.ipynb
+2. Pizza Reviews Genuine and Synthetic: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_AND_GPT_Pizza_Final.ipynb
 3. GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
 4. Car Repair Reviews https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/Car_SyntheticGenuine_Final_Capstone.ipynb
+5. LSTM Model Pizza Genuine only https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Final_LSTM_CAPSTONE_Guide_Genuine.ipynb
+6. LSTM Model Pizza Genuine and Synthetic https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Final_Pizza_LSTM_CAPSTONE_Guide_Combined.ipynb 
+7. LSTM Car Repair Genuine https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/Final_Car_LSTM_CAPSTONE_Guide_Genuine.ipynb
+8. LSTM Car Repair Genuine and Synthetic https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/commit/1d3a3c29bb6f2200ae8220e64918193f90b62983
 
