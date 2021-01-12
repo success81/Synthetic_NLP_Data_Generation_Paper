@@ -18,31 +18,14 @@ https://raw.githubusercontent.com/success81/Synthetic_NLP_Data_Generation_Paper/
 # PROJECT WORK
 
 ## PHASE 1: DATA GATHERING/PREP SYNTHETIC DATA GENERATION
-I First had to pull data from the Yelp Open Dataset I then downloaded the data<b>(Source: 1,2,4)</b>. I then used GPT-2 to generate the synthetic data<b>(Source: 10)</b>. 
+I First had to pull data from the Yelp Open Dataset(https://www.yelp.com/dataset) I then downloaded the data<b>(Reference: 1,2,4)</b>. I then used GPT-2 to generate the synthetic data<b>(Reference: 9)</b>. 
 
 ## PHASE 2: BUILDING THE MODELS
 I then built a baseline Multinomial Model for the Pizza Reviews and Car Repair Reviews. The Baseline models had no synthetic data. I then added the synthetic data 
-to the genuine data and to form new Models. <b>(Source: 1,2,4)</b> I then built a LSTM model with genuine data only and a mix of genuine and synthetic data for teh Car repair and Pizza Reviews. <b>(Source: 5,6,7,8)</b>
+to the genuine data and to form new Models. <b>(Reference: 1,2,4)</b> I then built a LSTM model with genuine data only and a mix of genuine and synthetic data for teh Car repair and Pizza Reviews. <b>(Reference: 5,6,7,8)</b>
 
 ## PHASE 3: MODEL PERFORMANCE TESTING
-The performance of the models overall improved with the addition of synthetic data to the genuine data
-
-## Pizza Reviews Performance Results                          
-            
-            Genuine Data Only                 Synthetic/Genuine Data
-Precision      eee                                       ddd
-Accuracy       33                                        33
-F1
-Recall
-
-## Car Repair Reviews Performance Results
-
-             Genuine Data Only                 Synthetic/Genuine Data
-Precision
-Accuracy
-F1
-Recall
-
+The performance of the models overall improved with the addition of synthetic data to the genuine data. The results can be seen here. <b>(Reference: 11)</b>
 
 
 <b>Sources</b>
@@ -59,9 +42,10 @@ Recall
 6. LSTM Pizza Genuine and Synthetic: 
 6A. 
 7. LSTM Car Repair Genuine: 
-
-9. LSTM Car Repair Genuine and Synthetic: 
-9A.
-10.GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
+7A
+8. LSTM Car Repair Genuine and Synthetic: 
+8A.
+9.GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
+10. Performance Results: 
 
 
