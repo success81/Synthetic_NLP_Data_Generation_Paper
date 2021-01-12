@@ -77,7 +77,7 @@ https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_r
 8: LSTM Car Repair Genuine and Synthetic:
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/Final_Car_LSTM_CAPSTONE_Guide_CombinedZ.ipynb
 
-8A: LSTM Car Repair Genuine and Syntbetic PY:
+8A: LSTM Car Repair Genuine and Syntnetic PY:
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/final_car_lstm_capstone_guide_combinedz.py
 
 9:GPT Sample Notebook:
