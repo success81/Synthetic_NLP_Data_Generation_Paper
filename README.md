@@ -27,6 +27,9 @@ to the genuine data and to form new Models. <b>(Reference: 1,2,4)</b> I then bui
 ## PHASE 3: MODEL PERFORMANCE TESTING
 The performance of the models overall improved with the addition of synthetic data to the genuine data. The results can be seen here. <b>(Reference: 11)</b>
 
+# Conclusion
+Through the testing of multiple models it is proven that adding synthetic data improves the performance of Classification Models
+
 
 <b>Sources</b>
 1. Pizza Reviews Genuine_Only Notebook:
@@ -43,7 +46,7 @@ The performance of the models overall improved with the addition of synthetic da
 6A. 
 7. LSTM Car Repair Genuine: 
 7A
-8. LSTM Car Repair Genuine and Synthetic: 
+8. LSTM Car Repair Genuine and Synthetic:
 8A.
 9.GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
 10. Performance Results: 
