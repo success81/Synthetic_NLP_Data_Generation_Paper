@@ -46,17 +46,28 @@ https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_F
 
 3A:
 
-4. Car Repair Genuine/Synthetic: 
+4: Car Repair Genuine/Synthetic:
+
 4A:
-5. LSTM Pizza Genuine: 
-5A.
-6. LSTM Pizza Genuine and Synthetic: 
-6A. 
-7. LSTM Car Repair Genuine: 
-7A
-8. LSTM Car Repair Genuine and Synthetic:
-8A.
-9.GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
-10. Performance Results: d
+
+5: LSTM Pizza Genuine: 
+
+5A:
+
+6: LSTM Pizza Genuine and Synthetic:
+
+6A:
+
+7: LSTM Car Repair Genuine:
+
+7A:
+
+8: LSTM Car Repair Genuine and Synthetic:
+
+8A:
+
+9:GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
+
+10:Performance Results: d
 
 
