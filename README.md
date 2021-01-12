@@ -31,7 +31,8 @@ The performance of the models overall improved with the addition of synthetic da
 Through the testing of multiple models it is proven that adding synthetic data improves the performance of Classification Models
 
 
-<b>Sources</b>
+# Sources
+
 1: Pizza Reviews Genuine_Only Notebook:
 
 1A:
@@ -41,9 +42,9 @@ https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_F
 
 2A: Pizza Reviews Genuine and Synthetic PY File: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/jan_final_v2_genuine_and_gpt_pizza_finalz.py
 
-3. Car Repair Genuine:
+3: Car Repair Genuine:
 
-3A.
+3A:
 
 4. Car Repair Genuine/Synthetic: 
 4A:
