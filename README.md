@@ -80,7 +80,7 @@ https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_r
 8A: LSTM Car Repair Genuine and Syntnetic PY:
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/final_car_lstm_capstone_guide_combinedz.py
 
-9:GPT Sample Notebook:
+9:GPT Sample Notebook:                                  
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
 
 10:Performance Results:
