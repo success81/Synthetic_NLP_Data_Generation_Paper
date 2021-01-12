@@ -33,9 +33,11 @@ Through the testing of multiple models it is proven that adding synthetic data i
 
 # Sources
 
-1: Pizza Reviews Genuine_Only Notebook:
+1: Pizza Reviews Genuine Only Notebook:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_GENUINE_Pizza_FinalZ.ipynb
 
-1A:
+1A: Pizza Reviews Genuine Only PY File:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/jan_final_v2_genuine_pizza_finalz.py
 
 2: Pizza Reviews Genuine and Synthetic:
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_FINAL_V2_Genuine_AND_GPT_Pizza_FinalZ.ipynb
@@ -43,12 +45,16 @@ https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/JAN_F
 2A: Pizza Reviews Genuine and Synthetic PY File: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/jan_final_v2_genuine_and_gpt_pizza_finalz.py
 
 3: Car Repair Genuine:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/Car_Genuine_Final_CapstoneZ.ipynb
 
-3A:
+3A: Car Repair Genuine PY File:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/car_genuine_final_capstonez.py
 
 4: Car Repair Genuine/Synthetic:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/Car_GenuineSynthetic_Final_CapstoneZ.ipynb
 
-4A:
+4A:Car Repair Genuine/Synthetic Python:
+https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/car_genuinesynthetic_final_capstonez.py
 
 5: LSTM Pizza Genuine: 
 
