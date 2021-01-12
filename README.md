@@ -49,6 +49,6 @@ Through the testing of multiple models it is proven that adding synthetic data i
 8. LSTM Car Repair Genuine and Synthetic:
 8A.
 9.GPT Sample Notebook: https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2_Sample_Notebook-2.ipynb
-10. Performance Results: 
+10. Performance Results: d
 
 
