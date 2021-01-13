@@ -22,7 +22,7 @@ Developed by OpenAI, GPT-2 is a large-scale transformer-based language model tha
 The Yelp Open Dataset contains anonymized reviews on various businesses and services (Yelp). For this paper I created a subset of data of pizza restaurant reviews. Within this subset of data I divided the ratings into “Positive” and “Negative”. Ratings that were 4 or 5 stars were categorized as “Positive”. Ratings that were 1 or 2 stars were categorized as “Negative”. For this paper my Negative dataset contained 225 observations and the Positive dataset also contained 225 observations. 
 
 <p align="center">
-  <img width="600" height="400" src="https://user-images.githubusercontent.com/9426716/104496217-b08e9b00-55a6-11eb-9f8d-932b25909730.png">
+  <img width="900" height="500" src="https://user-images.githubusercontent.com/9426716/104496217-b08e9b00-55a6-11eb-9f8d-932b25909730.png">
 </p>
 
 ## 2.3 Technical Approach
