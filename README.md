@@ -45,7 +45,7 @@ My first task was to create two GPT-2 models and train one of them on genuine ne
 I chose the 355 million parameter GPT-2 model to build my two models. I used Google Colabs as my development notebook. 
 
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104497032-c486cc80-55a7-11eb-9dcf-6420f6c48a9e.png">
+  <img width="1000" height="500" src="https://user-images.githubusercontent.com/9426716/104497032-c486cc80-55a7-11eb-9dcf-6420f6c48a9e.png">
 </p>
 
 I used the GPT2.Generate method to generate synthetic reviews. On average, my responses were 70 words long. 
