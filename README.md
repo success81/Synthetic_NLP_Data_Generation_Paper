@@ -32,7 +32,7 @@ The intent of the research in this paper is to train two GPT-2 models on a small
 ## 2.3.1 Generating Synthetic Review Data
 
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496008-6b6a6900-55a6-11eb-9b8f-23c9fbe8480d.png">
+  <img width="900" height="500" src="https://user-images.githubusercontent.com/9426716/104496008-6b6a6900-55a6-11eb-9b8f-23c9fbe8480d.png">
 </p>
 
 My first task was to create two GPT-2 models and train one of them on genuine negative Yelp pizza review data and the other model on genuine positive Yelp pizza review data. I then had these models generate synthetic negative and positive review data that was combined into one a single dataset.
