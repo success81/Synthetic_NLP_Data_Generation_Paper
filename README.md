@@ -51,7 +51,7 @@ I chose the 355 million parameter GPT-2 model to build my two models. I used Goo
 I used the GPT2.Generate method to generate synthetic reviews. On average, my responses were 70 words long. 
 
 <p align="center">
-  <img width="900" height="500" src="https://user-images.githubusercontent.com/9426716/104495471-cf406200-55a5-11eb-86ca-214bd8f48fac.png">
+  <img width="1000" height="500" src="https://user-images.githubusercontent.com/9426716/104495471-cf406200-55a5-11eb-86ca-214bd8f48fac.png">
 </p>
 
 ## 2.3.3 GPT-2 Text Generation
