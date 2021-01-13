@@ -103,13 +103,13 @@ These were the performance percentage increases of the pizza and car models.
   <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496481-0d8a5100-55a7-11eb-80fb-098de0b35029.png">
 </p>
 
-These were the results when I added 1000 synthetic observations at a time.
+These were the results when I added 1000 synthetic observations to the car repair genuine data at a time.
 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496608-327ec400-55a7-11eb-8912-f28d419c537f.png">
 </p>
 
-These were the results of LSTM models
+These were the results of LSTM models.
 
 
 ## 3. Concluding Remarks:
