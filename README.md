@@ -134,7 +134,7 @@ This project is organized into multiple Google Colab Notebooks. The code is comm
 The CRISP-DM planning document for this project can be found here:
 https://raw.githubusercontent.com/success81/Synthetic_NLP_Data_Generation_Paper/main/Crisp-DM.txt
 
-# PROJECT WORK
+# PROJECT WORK CODE
 
 ## PHASE 1: DATA GATHERING/PREP SYNTHETIC DATA GENERATION
 I first had to pull data from the Yelp Open Dataset(https://www.yelp.com/dataset). I then loaded the data into a Google Colabs Notebook<b>(References: 1,3)</b>. I then used GPT-2 to generate the synthetic data<b>(Reference: 9)</b>. 
