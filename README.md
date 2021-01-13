@@ -28,9 +28,33 @@ For the research conducted in this paper I used the GPT-2 transformer model and 
 2.1 GPT-2
 Developed by OpenAI, GPT-2 is a large-scale transformer-based language model that is pre-trained on a large corpus of text: 8 million high-quality webpages. The objective of GPT-2 is to predict the next word given all of the previous words within some text. The GPT-2 model can be trained with an additional custom dataset using a method called transfer learning to produce more relevant text.
 
+2.2 Yelp Open Dataset Reviews
+The Yelp Open Dataset contains anonymized reviews on various businesses and services (Yelp). For this paper I created a subset of data of pizza restaurant reviews. Within this subset of data I divided the ratings into “Positive” and “Negative”. Ratings that were 4 or 5 stars were categorized as “Positive”. Ratings that were 1 or 2 stars were categorized as “Negative”. For this paper my Negative dataset contained 225 observations and the Positive dataset also contained 225 observations. 
+
+2.3 Technical Approach
+
+The intent of the research in this paper is to train two GPT-2 models on a small subset of Positive and Negative Yelp Pizza Reviews data. I will then use the two GPT-2 models to produce synthetic Positive and Negative review datasets. I will finally combine the new synthetic datasets with the genuine dataset and fit a classification model to this dataset that will have the ability to determine negative and positive sentiment of pizza restaurant reviews.
+
+2.3.1 Generating Synthetic Review Data
+
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495471-cf406200-55a5-11eb-86ca-214bd8f48fac.png">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496008-6b6a6900-55a6-11eb-9b8f-23c9fbe8480d.png">
 </p>
+
+My first task was to create two GPT-2 models and train one of them on genuine negative Yelp pizza review data and the other model on genuine positive Yelp pizza review data. I then had these models generate synthetic negative and positive review data that was combined into one a single dataset.
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495863-4249d880-55a6-11eb-9e38-b14db1924b29.png">
+</p>
+
+2.3.2 Synthetic Review Generation
+I chose the 355 million parameter GPT-2 model to build my two models. I used Google Colabs as my development notebook. 
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104497032-c486cc80-55a7-11eb-9dcf-6420f6c48a9e.png">
+</p>
+
+
 
 
 # How to Navigate this Project Code
