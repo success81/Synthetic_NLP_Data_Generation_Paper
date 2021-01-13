@@ -62,10 +62,10 @@ When generating synthetic reviews I wanted to ensure that the responses expanded
   <img width="800" height="500" src="https://user-images.githubusercontent.com/9426716/104495367-b041d000-55a5-11eb-87a8-d30a3c79fb8f.png">
 </p>
 
-2.3.4 Genuine and Synthetic Dataset Concatenation 
+## 2.3.4 Genuine and Synthetic Dataset Concatenation 
 
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495259-8a1c3000-55a5-11eb-9822-369689989eb1.png">
+  <img width="800" height="500" src="https://user-images.githubusercontent.com/9426716/104495259-8a1c3000-55a5-11eb-9822-369689989eb1.png">
 </p>
 
 After I created the synthetic Positive and Negative datasets I concatenated them with the genuine Negative and Positive Datasets. 
