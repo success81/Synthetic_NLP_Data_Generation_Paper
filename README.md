@@ -59,7 +59,7 @@ I used the GPT2.Generate method to generate synthetic reviews. On average, my re
 When generating synthetic reviews I wanted to ensure that the responses expanded on the genuine data and produced responses that were a strong representation of the genuine data. So when I wrote the prefix prompts I used words that were heavily represented in the genuine datasets.  I wrote a Python Function that organized the genuine dataset corpus into trigrams (3 word consecutive combinations), bigrams (2 word combinations) and words. This function also provides a count and numerically sorts the occurrences of these words and combinations. 
 
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495367-b041d000-55a5-11eb-87a8-d30a3c79fb8f.png">
+  <img width="800" height="500" src="https://user-images.githubusercontent.com/9426716/104495367-b041d000-55a5-11eb-87a8-d30a3c79fb8f.png">
 </p>
 
 2.3.4 Genuine and Synthetic Dataset Concatenation 
