@@ -10,10 +10,6 @@ By adding synthetic data to genuine training data the performance of the Classif
 
 # Project Walkthrough
 
-<p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104441775-20c6fd80-5562-11eb-8d9e-bd3afc7342fb.jpg">
-</p>
-
 2. Methodology:
 
 2.1 Introduction
