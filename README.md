@@ -2,7 +2,7 @@
 This repo is a project where I am exploring using GPT-2 to generate NLP observations for classification models.
 
  <div class="center">
-<img src="https://user-images.githubusercontent.com/9426716/104441775-20c6fd80-5562-11eb-8d9e-bd3afc7342fb.jpg" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/9426716/104441775-20c6fd80-5562-11eb-8d9e-bd3afc7342fb.jpg" class="center" width="300" height="300">
   </div>
 
 # Background:
