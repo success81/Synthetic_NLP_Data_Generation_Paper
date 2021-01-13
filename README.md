@@ -13,7 +13,27 @@ Classification Models use input data to predict the likelihood that the subseque
 # Project Assumptions
 By adding synthetic data to genuine training data the performance of the Classification Models will be improved
 
-# How to Navigate this Project
+
+# Project Walkthrough
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104441775-20c6fd80-5562-11eb-8d9e-bd3afc7342fb.jpg">
+</p>
+
+2. Methodology:
+
+2.1 Introduction
+For the research conducted in this paper I used the GPT-2 transformer model and Yelp open dataset pizza reviews to create the synthetic data. 
+
+2.1 GPT-2
+Developed by OpenAI, GPT-2 is a large-scale transformer-based language model that is pre-trained on a large corpus of text: 8 million high-quality webpages. The objective of GPT-2 is to predict the next word given all of the previous words within some text. The GPT-2 model can be trained with an additional custom dataset using a method called transfer learning to produce more relevant text.
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495471-cf406200-55a5-11eb-86ca-214bd8f48fac.png">
+</p>
+
+
+# How to Navigate this Project Code
 This project is organized into multiple Google Colab Notebooks. The code is commented within the notebooks and PY files so you can easily see what's going on. The files are already linked to files in this repo. 
 
 # CRISP-DM 
