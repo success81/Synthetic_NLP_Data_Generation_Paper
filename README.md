@@ -73,7 +73,7 @@ After I created the synthetic Positive and Negative datasets I concatenated them
 ## 2.3.5 Performance Testing
 
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495089-4b867580-55a5-11eb-91bd-be64f1e50e11.png">
+  <img width="1000" height="600" src="https://user-images.githubusercontent.com/9426716/104495089-4b867580-55a5-11eb-91bd-be64f1e50e11.png">
 </p>
 
 To ensure there was a fair and equal analysis of the performance metrics, I used the scikit-learn train_test_split method to establish a single ground truth test set consisting of 198 observations derived from a totally separate dataset from the Yelp Open Dataset. I then built two baseline models on two datasets using the Multinomial Naive Bayes Classifier algorithm. The two datasets were: The genuine Yelp Pizza Reviews Dataset (450 observations) and the combined Genuine and Synthetic Yelp Reviews Dataset(11,380 observations).
