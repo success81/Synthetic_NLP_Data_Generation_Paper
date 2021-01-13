@@ -1,12 +1,6 @@
 # Project Purpose
 This repo is a project where I am exploring using GPT-2 to generate NLP observations for classification models.
 
-
-<p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104441775-20c6fd80-5562-11eb-8d9e-bd3afc7342fb.jpg">
-</p>
-
-
 # Background:
 Classification Models use input data to predict the likelihood that the subsequent input data will fall into predetermined categories. To perform effective classifications, these models require large datasets for training. It is becoming common practice to utilize synthetic data to boost the performance of Machine Learning Models. It is reported that Shell is using synthetic data to build models to detect problems that rarely occur; for example Shell created synthetic data to help models to identify deteriorating oil lines.It is common practice for Machine Learning Practitioners to generate synthetic data by rotating, flipping, and cropping images to increase the volume of image data to train Convolutional Neural Networks(CNN). The purpose of this paper is to explore creating and utilizing synthetic NLP data to improve the performance of Natural Language Processing (NLP) Machine Learning Classification Models. In this paper I used a Yelp pizza restaurant reviews dataset and transfer learning to fine-tune a pre-trained GPT-2 Transformer Model to generate synthetic pizza reviews data. I then combined this synthetic data with the original genuine data to create a new joint dataset. For performance comparison purposes, I built two baseline models on two separate datasets using the Multinomial Naive Bayes Classifier algorithm. The two datasets were: The Yelp Pizza Reviews Dataset (450 observations),  and a combined Yelp Pizza Reviews and Synthetic Yelp Reviews Dataset(11,380 observations). I created a single ground truth test dataset from the original Yelp dataset. I then executed an analysis of the baseline models on the single ground truth test dataset to establish the following prediction performance metrics for each baseline model: precision, accuracy, recall, F1, and a confusion matrix. The combined Yelp Pizza Review Dataset outperformed the genuine Yelp Pizza Reviews Dataset on each of the performance metrics. I also pulled a Car Repair dataset to do comparison analysis.
 
@@ -53,6 +47,81 @@ I chose the 355 million parameter GPT-2 model to build my two models. I used Goo
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104497032-c486cc80-55a7-11eb-9dcf-6420f6c48a9e.png">
 </p>
+
+I used the GPT2.Generate method to generate synthetic reviews. On average, my responses were 70 words long. 
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495471-cf406200-55a5-11eb-86ca-214bd8f48fac.png">
+</p>
+
+2.3.3 GPT-2 Text Generation
+
+When generating synthetic reviews I wanted to ensure that the responses expanded on the genuine data and produced responses that were a strong representation of the genuine data. So when I wrote the prefix prompts I used words that were heavily represented in the genuine datasets.  I wrote a Python Function that organized the genuine dataset corpus into trigrams (3 word consecutive combinations), bigrams (2 word combinations) and words. This function also provides a count and numerically sorts the occurrences of these words and combinations. 
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495367-b041d000-55a5-11eb-87a8-d30a3c79fb8f.png">
+</p>
+
+2.3.4 Genuine and Synthetic Dataset Concatenation 
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495259-8a1c3000-55a5-11eb-9822-369689989eb1.png">
+</p>
+
+After I created the synthetic Positive and Negative datasets I concatenated them with the genuine Negative and Positive Datasets. 
+
+2.3.5 Performance Testing
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495089-4b867580-55a5-11eb-91bd-be64f1e50e11.png">
+</p>
+
+To ensure there was a fair and equal analysis of the performance metrics, I used the scikit-learn train_test_split method to establish a single ground truth test set consisting of 198 observations derived from a totally separate dataset from the Yelp Open Dataset. I then built two baseline models on two datasets using the Multinomial Naive Bayes Classifier algorithm. The two datasets were: The genuine Yelp Pizza Reviews Dataset (450 observations) and the combined Genuine and Synthetic Yelp Reviews Dataset(11,380 observations).
+
+2.3.6 Performance Testing Results
+
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496763-65c15300-55a7-11eb-9ae4-d08b02b607d7.png">
+</p>
+
+
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496947-a7ea9480-55a7-11eb-88d6-c7fcea1d57bb.png">
+</p>
+
+These were the results of the pizza and car review models.
+
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496864-89849900-55a7-11eb-820a-593940d9785c.png">
+</p>
+
+
+
+These were the performance percentage increases of the pizza and car models.
+
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496481-0d8a5100-55a7-11eb-80fb-098de0b35029.png">
+</p>
+
+These were the results when I added 1000 synthetic observations at a time.
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496608-327ec400-55a7-11eb-8912-f28d419c537f.png">
+</p>
+
+These were the results of LSTM models
+
+
+3. Concluding Remarks:
+
+
+In conclusion, the Synthetic and Genuine Dataset performed well in all performance metrics. This technique has the possibility of allowing organizations and businesses to build high performing NLP classification models without the high cost associated with large scale data acquisition. There are opportunities in exploring this technique on datasets with a larger observation count. There are also opportunities in exploring GPT-2 prompt design to better guide the GPT-2 model in generating relevant text. This is an exciting Machine Learning Technique that I feel deserves further exploration.
+
+
 
 
 
