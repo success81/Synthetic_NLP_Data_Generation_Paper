@@ -91,6 +91,7 @@ https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_r
 8: LSTM Car Repair Genuine and Synthetic:
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/Final_Car_LSTM_CAPSTONE_Guide_CombinedZ.ipynb
 
+<a href="https://ibb.co/tCRRRcf"><img src="https://i.ibb.co/ggYYYw1/7030.jpg" alt="7030" border="0"></a>
 8A: LSTM Car Repair Genuine and Syntnetic PY:
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/Car_repair/final_car_lstm_capstone_guide_combinedz.py
 
@@ -100,4 +101,4 @@ https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/GPT_2
 10:Performance Results:
 https://github.com/success81/Synthetic_NLP_Data_Generation_Paper/blob/main/BASELINE%20MODEL%20PERFORMANCE%20REVIEWS.pdf
 
-
+<a href="https://ibb.co/tCRRRcf"><img src="https://i.ibb.co/ggYYYw1/7030.jpg" alt="7030" border="0"></a>
