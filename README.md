@@ -10,22 +10,22 @@ By adding synthetic data to genuine training data the performance of the Classif
 
 # Project Walkthrough
 
-2. Methodology:
+## 2. Methodology:
 
-2.1 Introduction
+## 2.1 Introduction
 For the research conducted in this paper I used the GPT-2 transformer model and Yelp open dataset pizza reviews to create the synthetic data. 
 
-2.1 GPT-2
+## 2.1 GPT-2
 Developed by OpenAI, GPT-2 is a large-scale transformer-based language model that is pre-trained on a large corpus of text: 8 million high-quality webpages. The objective of GPT-2 is to predict the next word given all of the previous words within some text. The GPT-2 model can be trained with an additional custom dataset using a method called transfer learning to produce more relevant text.
 
-2.2 Yelp Open Dataset Reviews
+## 2.2 Yelp Open Dataset Reviews
 The Yelp Open Dataset contains anonymized reviews on various businesses and services (Yelp). For this paper I created a subset of data of pizza restaurant reviews. Within this subset of data I divided the ratings into “Positive” and “Negative”. Ratings that were 4 or 5 stars were categorized as “Positive”. Ratings that were 1 or 2 stars were categorized as “Negative”. For this paper my Negative dataset contained 225 observations and the Positive dataset also contained 225 observations. 
 
-2.3 Technical Approach
+## 2.3 Technical Approach
 
 The intent of the research in this paper is to train two GPT-2 models on a small subset of Positive and Negative Yelp Pizza Reviews data. I will then use the two GPT-2 models to produce synthetic Positive and Negative review datasets. I will finally combine the new synthetic datasets with the genuine dataset and fit a classification model to this dataset that will have the ability to determine negative and positive sentiment of pizza restaurant reviews.
 
-2.3.1 Generating Synthetic Review Data
+## 2.3.1 Generating Synthetic Review Data
 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104496008-6b6a6900-55a6-11eb-9b8f-23c9fbe8480d.png">
@@ -37,7 +37,7 @@ My first task was to create two GPT-2 models and train one of them on genuine ne
   <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495863-4249d880-55a6-11eb-9e38-b14db1924b29.png">
 </p>
 
-2.3.2 Synthetic Review Generation
+## 2.3.2 Synthetic Review Generation
 I chose the 355 million parameter GPT-2 model to build my two models. I used Google Colabs as my development notebook. 
 
 <p align="center">
@@ -50,7 +50,7 @@ I used the GPT2.Generate method to generate synthetic reviews. On average, my re
   <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495471-cf406200-55a5-11eb-86ca-214bd8f48fac.png">
 </p>
 
-2.3.3 GPT-2 Text Generation
+## 2.3.3 GPT-2 Text Generation
 
 When generating synthetic reviews I wanted to ensure that the responses expanded on the genuine data and produced responses that were a strong representation of the genuine data. So when I wrote the prefix prompts I used words that were heavily represented in the genuine datasets.  I wrote a Python Function that organized the genuine dataset corpus into trigrams (3 word consecutive combinations), bigrams (2 word combinations) and words. This function also provides a count and numerically sorts the occurrences of these words and combinations. 
 
@@ -66,7 +66,7 @@ When generating synthetic reviews I wanted to ensure that the responses expanded
 
 After I created the synthetic Positive and Negative datasets I concatenated them with the genuine Negative and Positive Datasets. 
 
-2.3.5 Performance Testing
+## 2.3.5 Performance Testing
 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/9426716/104495089-4b867580-55a5-11eb-91bd-be64f1e50e11.png">
@@ -74,7 +74,7 @@ After I created the synthetic Positive and Negative datasets I concatenated them
 
 To ensure there was a fair and equal analysis of the performance metrics, I used the scikit-learn train_test_split method to establish a single ground truth test set consisting of 198 observations derived from a totally separate dataset from the Yelp Open Dataset. I then built two baseline models on two datasets using the Multinomial Naive Bayes Classifier algorithm. The two datasets were: The genuine Yelp Pizza Reviews Dataset (450 observations) and the combined Genuine and Synthetic Yelp Reviews Dataset(11,380 observations).
 
-2.3.6 Performance Testing Results
+## 2.3.6 Performance Testing Results
 
 
 <p align="center">
@@ -112,7 +112,7 @@ These were the results when I added 1000 synthetic observations at a time.
 These were the results of LSTM models
 
 
-3. Concluding Remarks:
+## 3. Concluding Remarks:
 
 
 In conclusion, the Synthetic and Genuine Dataset performed well in all performance metrics. This technique has the possibility of allowing organizations and businesses to build high performing NLP classification models without the high cost associated with large scale data acquisition. There are opportunities in exploring this technique on datasets with a larger observation count. There are also opportunities in exploring GPT-2 prompt design to better guide the GPT-2 model in generating relevant text. This is an exciting Machine Learning Technique that I feel deserves further exploration.
